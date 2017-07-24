@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Roulette",
+  "description": "Auto roulette for csgo500.com",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Roulette for https://csgo500.com",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+          "https://csgo500.com/*",
+          "https://www.csgo500.com/*"
+      ],
+      "js": [
+          "content.js"
+      ],
+      "css": [
+          "style.css"
+      ]
+   }
+  ],
+  "web_accessible_resources": [
+      "inject.js"
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}

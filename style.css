@@ -1,0 +1,23 @@
+.autoroulette__btn{
+  color:  white;
+  font-size: 2em;
+  padding:  5px;
+  border-radius: 10px;
+}
+
+.autoroulette__btn_enable{
+  background-color: orange;
+}
+
+.autoroulette__btn_disable{
+	background-color: red;
+}
+
+.autoroulette__error{
+	color: red;
+}
+
+.autoroulette__log{
+	color: green;
+	font-size: 1.5em;
+}
